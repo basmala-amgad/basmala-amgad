@@ -25,8 +25,7 @@ Data Analyst who loves turning raw numbers and messy spreadsheets into clear sto
 ### 💼 Open for Freelance Work
 Need data analysis, clean Excel reports, or a Power BI dashboard? Let's talk:
 
-📩 **Email:** *add your email here*
-🔗 **LinkedIn:** *add your LinkedIn link here*
+📩 **Email:** [basmalaamgad0062@gmail.com](mailto:basmalaamgad0062@gmail.com)
 🌐 **GitHub:** [github.com/basmala-amgad](https://github.com/basmala-amgad)
 
 ---
@@ -40,10 +39,3 @@ Need data analysis, clean Excel reports, or a Power BI dashboard? Let's talk:
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=basmala-amgad&theme=gotham" alt="basmala-amgad streak" />
 </p>
-
----
-
-### ☕ If you like what I do, consider buying me a coffee
-<a href="https://www.buymeacoffee.com/basmalaamgad" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150">
-</a>
