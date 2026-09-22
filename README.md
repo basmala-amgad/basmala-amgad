@@ -1,58 +1,49 @@
-<h1>Hi 👋, I'm Basmala Amgad</h1>
+<h1 align="center">Hi 👋, I'm Basmala Amgad</h1>
+<h3 align="center">Data Analyst | Excel • Power BI • SQL</h3>
 
-<h2>Junior Data Analyst</h2>
-
-<p>
-I'm a Junior Data Analyst interested in transforming raw data into
-clear insights and useful business information.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9BF0&center=true&vCenter=true&width=500&lines=Turning+raw+data+into+decisions;Excel+%7C+Power+BI+%7C+SQL;Open+for+freelance+work+%F0%9F%92%BC" alt="Typing SVG" />
 </p>
 
-<h2>About Me</h2>
+---
 
+### 🧠 About Me
+Data Analyst who loves turning raw numbers and messy spreadsheets into clear stories and decisions. Mainly working with Excel and Power BI, always picking up new tools in the data space.
+
+### 🛠️ Tools & Skills
 <p>
-🔹 Junior Data Analyst<br>
-🔹 Specialized in Excel and Power BI<br>
-🔹 Interested in Data Cleaning, Data Analysis, and Data Visualization<br>
-🔹 Currently improving my skills step by step in data analytics
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_Query-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data_Cleaning-2E9BF0?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Dashboards-F2C811?style=for-the-badge" />
 </p>
 
-<h2>Skills & Tools</h2>
+---
 
-<p>
-<img src="https://img.shields.io/badge/Excel-217346.svg?&style=for-the-badge&logo=microsoft-excel&logoColor=white" height=30>
-<img src="https://img.shields.io/badge/Power%20BI-F2C811.svg?&style=for-the-badge&logo=power-bi&logoColor=black" height=30>
-<img src="https://img.shields.io/badge/Power%20Query-217346.svg?&style=for-the-badge&logo=microsoft-excel&logoColor=white" height=30>
+### 💼 Open for Freelance Work
+Need data analysis, clean Excel reports, or a Power BI dashboard? Let's talk:
+
+📩 **Email:** *add your email here*
+🔗 **LinkedIn:** *add your LinkedIn link here*
+🌐 **GitHub:** [github.com/basmala-amgad](https://github.com/basmala-amgad)
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=basmala-amgad&show_icons=true&theme=gotham" alt="basmala-amgad stats" />
 </p>
 
-<h2>What I Do</h2>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=basmala-amgad&theme=gotham" alt="basmala-amgad streak" />
+</p>
 
-<ul>
-  <li>Data Cleaning and Preparation</li>
-  <li>Data Analysis using Excel</li>
-  <li>Data Transformation using Power Query</li>
-  <li>Data Visualization and Dashboard Creation</li>
-  <li>Finding Insights from Data</li>
-</ul>
+---
 
-<h2>Currently Learning</h2>
-
-<ul>
-  <li>Advanced Excel Analysis</li>
-  <li>Power BI</li>
-  <li>SQL</li>
-  <li>Python for Data Analysis</li>
-</ul>
-
-<h2>Contact Me</h2>
-
-<p>
-<a href="https://github.com/basmala-amgad">
-<img src="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=github&logoColor=white" height=30>
+### ☕ If you like what I do, consider buying me a coffee
+<a href="https://www.buymeacoffee.com/basmalaamgad" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150">
 </a>
-</p>
-
-<h2>GitHub Stats</h2>
-
-<p>
-<img src="https://github-readme-stats.vercel.app/api?username=basmala-amgad&show_icons=true" alt="Basmala's GitHub Stats">
-</p>
