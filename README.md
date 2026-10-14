@@ -1,41 +1,47 @@
-<h1 align="center">Hi 👋, I'm Basmala Amgad</h1>
-<h3 align="center">Data Analyst | Excel • Power BI • SQL</h3>
+# Online Retail II – Data Cleaning with Excel Power Query
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2E9BF0&center=true&vCenter=true&width=500&lines=Turning+raw+data+into+decisions;Excel+%7C+Power+BI+%7C+SQL;Open+for+freelance+work+%F0%9F%92%BC" alt="Typing SVG" />
-</p>
+A data cleaning project that turns a raw retail transactions file into an analysis-ready dataset using **Microsoft Excel (Power Query)**.
 
----
+**Dataset:** [UCI Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) (sheet: Year 2010–2011)
 
-### 🧠 About Me
-Data Analyst who loves turning raw numbers and messy spreadsheets into clear stories and decisions. Mainly working with Excel and Power BI, always picking up new tools in the data space.
+## Results
 
-### 🛠️ Tools & Skills
-<p>
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_Query-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Data_Cleaning-2E9BF0?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Dashboards-F2C811?style=for-the-badge" />
-</p>
+| | Before | After |
+|---|---|---|
+| Rows | 541,910 | **391,146** |
+| Rows without Customer ID | 135,080 | **0** |
+| Duplicate rows | 5,268 | **0** |
 
----
+Final dataset: **4,333 customers · 18,400 invoices · 3,658 products · 37 countries**, about **8.49M** in total sales (Dec 2010 – Dec 2011).
 
-### 💼 Open for Freelance Work
-Need data analysis, clean Excel reports, or a Power BI dashboard? Let's talk:
+## Problems found and how they were fixed
 
-📩 **Email:** [basmalaamgad0062@gmail.com](mailto:basmalaamgad0062@gmail.com)
-🌐 **GitHub:** [github.com/basmala-amgad](https://github.com/basmala-amgad)
+| Problem | Fix |
+|---|---|
+| Rows without a Customer ID | Removed (needed for customer-level analysis) |
+| Cancelled invoices (start with `C`) and negative quantities | Removed |
+| Duplicate rows | Removed using **all columns** as the key |
+| Zero prices | Filtered out (`Price > 0`) |
+| Non-product codes: `POST`, `M`, `C2`, `DOT`, `BANK CHARGES`, `PADS` | Removed |
+| Extreme quantities (74,215 and 80,995) that were cancelled later | Removed (`Quantity < 10,000`) |
+| Stock codes with letters (e.g. `85123A`) turned into numbers | Kept `Stock_Code` as text and upper-cased it |
+| Extra spaces in product names | Trim + replace double spaces |
+| Same product code with different names | Kept the most frequent name per code (Group By + `Table.Max`) |
+| Inconsistent country names (`Usa`, `Rsa`) | Upper-cased all country names |
+| Date and time in one column | Split into `Invoice_Date` and `Invoice_Time` |
 
----
+A `Total_Price` column (`Quantity × Price`) was added for analysis.
 
-### 📊 GitHub Stats
+## Files
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=basmala-amgad&show_icons=true&theme=gotham" alt="basmala-amgad stats" />
-</p>
+- `online_retail_II.xlsx` – raw data
+- `online_retail_II_Clean.xlsx` – cleaned data
+- `screenshots/` – Power Query applied steps
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=basmala-amgad&theme=gotham" alt="basmala-amgad streak" />
-</p>
+## Tools
+
+Microsoft Excel · Power Query (M language)
+
+## Author
+
+**Basmala Amgad** – Data Entry & Data Cleaning
