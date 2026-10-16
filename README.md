@@ -15,6 +15,7 @@ I turn messy data into clean, accurate, analysis-ready files using **Excel** and
 | Project | What I did | Tools |
 |---|---|---|
 | [Online Retail Data Cleaning](https://github.com/basmala-amgad/online-retail-data-cleaning) | Cleaned 541,910 sales rows into an analysis-ready dataset of 391,146 rows | Excel, Power Query |
+| [Hospital Patient Data Cleaning](https://github.com/basmala-amgad/diabetes-hospital-data-cleaning) | Cleaned 101,763 hospital records: handled missing values and standardized text | Excel, Power Query |
 
 *More projects coming soon.*
 
